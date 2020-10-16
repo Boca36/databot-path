@@ -3,8 +3,23 @@ description: assistant ai databot
 steps:
   - course: githubtraining/introduction-to-github
     description: The first step in your course
+    title: databot
   - link: 'https://lab.github.com'
     title: Check out Learning Lab for more courses!
     description: >-
       There are many more courses available on Learning Lab for you to check
       out.
+    course: deep machiiine learning
+  - title: machine learning software
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    course: assistant databot
+    description: quantum mechanics
+    link: assistant databot
+  - title: New step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
